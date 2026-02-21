@@ -223,9 +223,11 @@ HEADER / ABOUT US ↓
 */
 .two-column {
     display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     max-width: 1280px;
-    flex-direction: row;
-    padding-top: 5rem;
+    width: 100%; 
+    padding-top: 4rem;
     padding-bottom: 5rem;
 }
 
@@ -275,12 +277,11 @@ header .row {
 .header__content--input-btn {
     right: 0px;
     top: 0px;
-    bottom: 0px;
-    margin-top: .2rem;
-    margin-bottom: 1rem;
+    bottom: 65px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     margin-right: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-top: 11px;
     display: flex;
     position: absolute;
     width: 35%;
@@ -295,6 +296,19 @@ header .row {
     color: rgb(247 250 252 / var(--tw-text-opacity));
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
+}
+
+.header__content2 {
+    position: relative;
+    display: flex;
+    width:60%;
+}
+
+.header__content2--image {
+    max-width: 100%
+   height: auto;
+   object-fit: contain;
+   flex-shrink: 0;
 }
 
 /* 
