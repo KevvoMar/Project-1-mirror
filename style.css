@@ -527,13 +527,91 @@ STEPS ↓
 */
 
 
-#steps .row {
+.steps__container {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    padding: 90px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.steps__twocol {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 5rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps__leftcol {
+    position: relative;
+    width: 100%;
+    max-width: 50%;
+}
+
+.steps__leftcol--image {
+    position: relative;
+    bottom: 5rem;
+    right: 6rem;
+    display: flex;
+    width: 120%;
+    height: auto;
+}
+.steps__rightcol {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-left: 5rem;
+}
+
+.steps__subtitle {
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+    bottom: 10rem;
+}
+
+.steps__title {
+    position: relative;
+    bottom: 8rem;
+    text-align: start;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.steps__number--container {
+    position: relative;
+    bottom: 5rem;
+    line-height: 3rem;
+    list-style: none;
+}
+
+.steps__number {
+    position: relative;
+    display: flex;
 }
 
 
+.step__number {
+color: rgb(202, 202, 202);
+font-size: 50px;
+padding-right: 2rem;
+}
+
+.step__name {
+    font-size: 20px;
+}
+
+.step__paragraph {
+
+}
 /* 
 
 VALUES ↓
