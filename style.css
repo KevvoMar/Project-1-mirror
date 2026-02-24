@@ -510,7 +510,7 @@ QUALITY WORK ↓
     text-decoration: none;
     font-size: .875rem;
     padding-top: 10px;
-    bottom: 1rem;
+    bottom: 2rem;
     font-size: 15px;
     font-weight: 600;
 }
@@ -709,6 +709,23 @@ VALUES ↓
     width: 100%;
 }
 
+.values__btn {
+    position: relative;
+    background-color: #6415ff;
+    border-radius: 9999px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    top: 4rem;
+    left: 3rem;
+}
+
+.values__btn:hover {
+    background-color: #4b0db9;
+}
 /*
 
 PRICING ↓
@@ -721,6 +738,122 @@ PRICING ↓
     flex-direction: column;
     align-items: center;
 }
+
+.pricing__heading--container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.pricing__subheading {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.pricing__heading {
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.pricing__paragraph {
+    text-align: center;
+    width: 100%;
+    max-width: 30%;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    line-height: 2rem;
+}
+
+.pricing__threecol {
+    border: #1a202c solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 18rem;
+}
+.pricing__leftcol {
+    border: green solid 2px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing__leftcol--topbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}   
+
+.pricing__leftcol--heading {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.pricing__leftcol--price {
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 2rem;
+}
+.pricing__leftcol--subheading {
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
+
+.pricing__leftcol--midbox {
+    width: 100%;
+    border-top: #d8d8d8 solid 4px;
+    border-bottom: #d8d8d8 solid 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.pricing__leftcol--midbox-title {
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing__leftcol--midbox-description {
+    line-height: 2rem;
+    font-size: 18px;
+    color:rgb(85, 85, 85)
+}
+
+.pricing__leftcol--bottombox {
+    position: relative;
+    padding: 5rem;
+}
+
+.pricing__leftcol--midbox-btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    padding: 1rem 3rem;
+    border-radius: 9999px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
 
 /* 
 
