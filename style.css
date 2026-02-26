@@ -733,10 +733,14 @@ PRICING ↓
 */
 
 
-#pricing .row {
+#pricing {
     display: flex;
     flex-direction: column;
     align-items: center;
+        padding: 90px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .pricing__container {
@@ -1110,7 +1114,10 @@ START / CALL TO ACTION ↓
 
 
 #start {
-    padding: 96px 70px;
+    padding: 90px 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .start__container {
@@ -1131,7 +1138,7 @@ START / CALL TO ACTION ↓
 }
 
 .start__leftcol {
-    width: 60%;
+    width: 50%;
 }
 
 .start__title {
@@ -1192,12 +1199,108 @@ FOOTER ↓
 
 
 footer {
-    padding: 96px 32px;
+    padding: 96px 0px;
     background-color: rgb(100, 21, 255);
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
 }
+
+.footer__links {
+    border-bottom: rgba(255, 255, 255, 0.233) solid 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__col1,  
+.footer__col2, 
+.footer__col3, 
+.footer__col4, 
+.footer__col5 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    line-height: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.footer__link--title {
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.footer__link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.footer__link:hover {
+    border-bottom: solid 1px white;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__row--3col {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.footer__row--left {
+    display: flex;
+}
+
+.footer__row--left-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: .5rem;
+}
+
+.footer__logo {
+    width: 100%;
+    max-width: 2.5rem;
+}
+
+.footer__row--midcol {
+    display: flex;
+}
+
+.footer__row--mid-text {
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer__social--container {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 1rem;
+}
+
+.footer__social--icon {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: .5rem .5rem;
+}
+
+.fa-brands {
+    width: 100%;
+}
+
 
 
 /* 
